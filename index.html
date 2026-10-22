@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday, Baby ✨</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <audio id="birthdayMusic" loop autoplay>
+    <source src="birthday.mp3" type="audio/mpeg">
+</audio>
+<button id="birthdayMusicBtn" class="birthday-music-btn">♫</button>
+
+    <!-- Magical background -->
+    <div class="stars"></div>
+    <div class="stars stars-two"></div>
+
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+
+
+    <!-- Main birthday screen -->
+    <main class="cover">
+
+        <!-- Childhood photo -->
+        <div class="photo childhood-photo">
+            <img src="cover1.jpg" alt="Childhood memory">
+        </div>
+
+
+        <!-- Constellation connecting the two photos -->
+        <div class="constellation">
+
+            <span class="star s1">✦</span>
+            <span class="star s2">✧</span>
+            <span class="star s3">✦</span>
+            <span class="star s4">·</span>
+            <span class="star s5">✧</span>
+
+        </div>
+
+
+        <!-- Central birthday message -->
+        <section class="birthday-text">
+
+            <p class="little-line">
+                A little celebration for someone special
+            </p>
+
+            <h1>Happy Birthday</h1>
+
+            <h2>Baby</h2>
+
+            <p class="subtitle">
+                Here's to you, your beautiful journey,<br>
+                and all the moments still waiting to be made.
+            </p>
+
+            <button onclick="beginStory()">
+                Begin our story
+                <span>✦</span>
+            </button>
+
+        </section>
+
+
+        <!-- Current photo -->
+        <div class="photo current-photo">
+            <img src="cover2.jpg" alt="Current photo">
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
